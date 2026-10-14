@@ -12,16 +12,13 @@
 
     <!-- navbar -->
 <nav class="max-w-7xl mx-auto md:my-5 md:p-5 flex flex-col md:flex-row justify-between items-center gap-4">
-  
-  <!-- Row 1 (Mobile par): Logo aur Button ko ek line me lane ke liye -->
+
   <div class="flex justify-between items-center w-full md:w-auto md:order-1">
     <!-- Logo -->
     <div class="flex gap-0.5 md:gap-2 items-center">
       <img src="devicon--confluence.svg" alt="logo" class="md:h-6 md:w-6 h-3 w-3">
       <span class="md:text-lg text-sm font-extrabold md:font-black">NexusAI</span>
     </div>
-
-    <!-- Mobile Button: Ye sirf mobile par dikhega aur baki screens par hidden rahega -->
     <button class="flex md:hidden items-center gap-2 bg-[#2563EB] text-white font-semibold px-4 py-2 text-xs rounded-full hover:bg-blue-700">
       Start Free Trial
       <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://w3.org">
@@ -30,15 +27,13 @@
     </button>
   </div>
 
-  <!-- Row 2 (Mobile par): Menu links jo niche center me aa jayenge -->
   <div class="flex gap-4 opacity-80 items-center justify-center w-full md:w-auto md:order-2">
-    <a href="#" class="text-blue-400 text-sm md:text-lg font-bold hover:text-white">Features</a>
-    <a href="#" class="hover:text-blue-400 text-sm md:text-lg">Workflow</a>
-    <a href="#" class="hover:text-blue-400 text-sm md:text-lg">Integrations</a>
-    <a href="#" class="hover:text-blue-400 text-sm md:text-lg">Pricing</a>
+    <a href="#features" class="text-blue-400 text-sm md:text-lg font-bold hover:text-white">Features</a>
+    <a href="#workflow" class="hover:text-blue-400 text-sm md:text-lg">Workflow</a>
+    <a href="#integrations" class="hover:text-blue-400 text-sm md:text-lg">Integrations</a>
+    <a href="#pricing" class="hover:text-blue-400 text-sm md:text-lg">Pricing</a>
   </div>
 
-  <!-- Desktop Button: Ye mobile par hidden rahega aur badi screens par right side me aayega -->
   <button class="hidden md:flex items-center gap-2 bg-[#2563EB] text-white font-semibold px-6 py-3 rounded-full hover:bg-blue-700 md:order-3">
     Start Free Trial
     <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://w3.org">
@@ -103,16 +98,16 @@
             <img src="Frame 243.svg" alt="logo" class="h-6 w-32  object-cover">
         </div>
     </section>
-    <section class="flex flex-col mx-auto items-center">
+    <section class="flex flex-col mx-auto items-center" id="features>
         <span class="border-2 border-slate-600  opacity-80 text-sm md:text-lg rounded-full px-4 py-2">POWERFUL
             FEATURES</span>
         <h2 class="text-4xl mt-3 text-center">Build for high performance agency teams</h2>
-        <div class=" max-w-7xl flex md:flex-row flex-col mx-auto my-10 gap-16 items-center  ">
+        <div class=" max-w-7xl flex md:flex-row flex-col mx-auto my-10 gap-16 items-center" id="workflow">
 
             <!-- =========1st card =================== -->
             <div
                 class="flex h-[281px] w-full max-w-[343px] flex-col  gap-8 rounded-[28px] border border-[#7B848A]/50 bg-[#212D3E] p-6 text-white shadow-lg">
-                <!-- Inner Card Top -->
+            
                 <div class="flex flex-col gap-3 rounded-2xl bg-[#3F5877]/80 p-4 text-xs font-medium">
                     <div class="flex items-center justify-between">
                         <span class="text-slate-300"><span class="text-slate-400">Task:</span> Agency Onboarding</span>
@@ -126,8 +121,6 @@
                             progress</span>
                     </div>
                 </div>
-
-                <!-- Inner Bottom Section -->
                 <div class="border-t border-[#7B848A] pt-4">
                     <h3 class="text-lg font-bold text-white">AI Workflow Automation</h3>
                     <p class="mt-1 text-xs text-slate-300 leading-relaxed">
@@ -139,7 +132,7 @@
             <!-- <==============Card2=============> -->
             <div
                 class="flex h-[281px] w-full max-w-[235px] flex-col justify-between rounded-[28px] border border-[#7B848A]/50 bg-[#212D3E] p-6 text-white shadow-lg">
-                <!-- Inner Top Section -->
+              
                 <div class="flex items-center gap-2 pt-6">
                     <span class="text-5xl font-semibold text-white">99.8%</span>
                     <svg class="h-10 w-10 text-[#22c55e]" fill="none" stroke="currentColor" stroke-width="3"
@@ -149,7 +142,7 @@
 
                 </div>
 
-                <!-- Inner Bottom Section -->
+              
                 <div class="border-t border-[#7B848A] pt-4">
                     <h3 class="text-xl font-bold text-white">Real-Time Velocity</h3>
                     <p class="mt-1 text-md text-slate-300 leading-relaxed">
@@ -161,8 +154,8 @@
             <!-- <==============Card3=============> -->
             <div
                 class="flex h-[281px] w-full max-w-[273px] flex-col justify-between rounded-[28px] border border-[#7B848A]/50 bg-[#212D3E] p-6 text-white shadow-lg">
-                <!-- Inner Top Section -->
-                <div class="flex flex-col gap-6 pt-2">
+              
+                <div class="flex flex-col gap-6 pt-2" id="integrations">
                     <div class="flex items-center gap-7 text-slate-400">
                         <img src="Vector (1).png" alt="Figma" class="h-10 w-10 object-contain opacity-70">
                         <img src="akar-icons_github-fill.png" alt="GitHub"
@@ -178,7 +171,6 @@
                     </div>
                 </div>
 
-                <!-- Inner Bottom Section -->
                 <div class="border-t  border-[#7B848A] pt-4">
                     <h3 class="text-lg font-bold text-white">100+ Integrations</h3>
                     <p class="mt-1 text-xs text-slate-300 leading-relaxed">
@@ -187,7 +179,7 @@
                 </div>
             </div>
     </section>
-    <section class="flex flex-col items-center my-6">
+    <section class="flex flex-col items-center my-6" id="pricing">
         <span class="text-xl border-2 border-slate-600 px-4 rounded-full py-2 opacity-80"> Pricing</span>
         <span class="text-3xl">Flexible for growing agencies</span>
         <div class="flex md:flex-row flex-col mx-auto items-center gap-7 my-8 ">
